@@ -16,9 +16,7 @@ class QuestionsController < ApplicationController
         # end
         if @question.end_with?('?')
             @answer = 'Silly Question'.upcase
-            3.times do 
-                @question =  'hello'
-            end
+            
         end
     end
 end
